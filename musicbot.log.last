@@ -1,0 +1,298 @@
+[444.729328156] 2018-07-24 00:46:31,761 - INFO - launcher: Starting sanity checks
+[444.729328156] 2018-07-24 00:46:31,761 - INFO - launcher: Checking for Python 3.5+
+[459.722042084] 2018-07-24 00:46:31,776 - INFO - launcher: Checking console encoding
+[460.721492767] 2018-07-24 00:46:31,777 - INFO - launcher: Setting console encoding to UTF-8
+[460.721492767] 2018-07-24 00:46:31,777 - INFO - launcher: Ensuring we're in the right environment
+[461.721181870] 2018-07-24 00:46:31,778 - INFO - launcher: Adding local bins/ folder to path
+[470.715045929] 2018-07-24 00:46:31,787 - INFO - launcher: Required checks passed.
+[470.715045929] 2018-07-24 00:46:31,787 - INFO - launcher: Optional checks passed.
+[470.715045929] 2018-07-24 00:46:31,787 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[20.2574791908264160] 2018-07-24 00:46:51,574 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 213 in _setup_logging: Set logging level to INFO
+[20.2574791908264160] 2018-07-24 00:46:51,574 - INFO - musicbot.bot | In bot.py::MainThread(244), line 80 in __init__: =========== MusicBot (version 1.9.6_3) ===========
+[20.2584788799285889] 2018-07-24 00:46:51,575 - INFO - musicbot.bot | In bot.py::MainThread(244), line 86 in __init__: Loaded autoplaylist with 2421 entries
+[20.259465456] launcher-INFO: Connecting
+[24.1348316669464111] 2018-07-24 00:46:55,451 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 1011 in on_ready: Connection established, ready to go.
+[24.1348316669464111] 2018-07-24 00:46:55,451 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 324 in _cache_app_info: Caching app info
+[24.2817335128784180] 2018-07-24 00:46:55,598 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 828 in _scheck_ensure_env: Ensuring data folders exist
+[24.2857301235198975] 2018-07-24 00:46:55,602 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 844 in _scheck_server_permissions: Checking server permissions
+[24.2857301235198975] 2018-07-24 00:46:55,602 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 848 in _scheck_autoplaylist: Auditing autoplaylist
+[24.2857301235198975] 2018-07-24 00:46:55,602 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 852 in _scheck_configs: Validating config
+[24.2857301235198975] 2018-07-24 00:46:55,602 - DEBUG - musicbot.config | In config.py::MainThread(244), line 155 in async_validate: Validating options...
+[24.2857301235198975] 2018-07-24 00:46:55,602 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 855 in _scheck_configs: Validating permissions config
+[24.2857301235198975] 2018-07-24 00:46:55,602 - DEBUG - musicbot.permissions | In permissions.py::MainThread(244), line 59 in async_validate: Validating permissions...
+[24.2857301235198975] 2018-07-24 00:46:55,602 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1022 in on_ready: Connected to Discord!
+[24.2867300510406494] 2018-07-24 00:46:55,603 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1032 in on_ready: Bot:   418494189123272704/iTirex_Bot#2607 [BOT]
+[24.2877371311187744] 2018-07-24 00:46:55,604 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1040 in on_ready: Owner: 303615965596221451/iTirex#7670
+
+[24.2877371311187744] 2018-07-24 00:46:55,604 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1043 in on_ready: Server List:
+[24.2887370586395264] 2018-07-24 00:46:55,605 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1044 in <listcomp>:  - 🎮Gamers  Squad🎮
+[24.2887370586395264] 2018-07-24 00:46:55,605 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1044 in <listcomp>:  - Mafia Siciliana
+[24.2887370586395264] 2018-07-24 00:46:55,605 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1088 in on_ready: Not bound to any text channels
+[24.2887370586395264] 2018-07-24 00:46:55,605 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1114 in on_ready: Not autojoining any voice channels
+[24.2897269725799561] 2018-07-24 00:46:55,606 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1118 in on_ready: Options:
+[24.2897269725799561] 2018-07-24 00:46:55,606 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1120 in on_ready:   Command prefix: *
+[24.2897269725799561] 2018-07-24 00:46:55,606 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1121 in on_ready:   Default volume: 25%
+[24.2907261848449707] 2018-07-24 00:46:55,607 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1123 in on_ready:   Skip threshold: 4 votes or 50%
+[24.2907261848449707] 2018-07-24 00:46:55,607 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1124 in on_ready:   Now Playing @mentions: Disabled
+[24.2907261848449707] 2018-07-24 00:46:55,607 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1125 in on_ready:   Auto-Summon: Enabled
+[24.2907261848449707] 2018-07-24 00:46:55,607 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1126 in on_ready:   Auto-Playlist: Enabled
+[24.2917261123657227] 2018-07-24 00:46:55,608 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1127 in on_ready:   Auto-Pause: Enabled
+[24.2917261123657227] 2018-07-24 00:46:55,608 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1128 in on_ready:   Delete Messages: Enabled
+[24.2927291393280029] 2018-07-24 00:46:55,609 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1130 in on_ready:     Delete Invoking: Disabled
+[24.2927291393280029] 2018-07-24 00:46:55,609 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1131 in on_ready:   Debug Mode: Disabled
+[24.2927291393280029] 2018-07-24 00:46:55,609 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1132 in on_ready:   Downloaded songs will be saved
+[24.2937331199645996] 2018-07-24 00:46:55,610 - INFO - musicbot.bot | In bot.py::MainThread(244), line 258 in _join_startup_channels: Found owner in "🌪🗡League Of Legends🔪🔥"
+[24.2937331199645996] 2018-07-24 00:46:55,610 - INFO - musicbot.bot | In bot.py::MainThread(244), line 267 in _join_startup_channels: Attempting to join Mafia Siciliana/🌪🗡League Of Legends🔪🔥
+[24.2947244644165039] 2018-07-24 00:46:55,611 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 437 in get_voice_client: Connection attempt 1 to 🌪🗡League Of Legends🔪🔥
+[24.2947244644165039] 2018-07-24 00:46:55,611 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 376 in join_voice_channel: (join_voice_channel) creating futures
+[24.2947244644165039] 2018-07-24 00:46:55,611 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 382 in join_voice_channel: (join_voice_channel) setting voice state
+[24.2947244644165039] 2018-07-24 00:46:55,611 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 385 in join_voice_channel: (join_voice_channel) waiting for session id
+[24.4386425018310547] 2018-07-24 00:46:55,755 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 2564 in on_voice_state_update: Voice state update for 418494189123272704/iTirex_Bot#2607 on Mafia Siciliana/🌪🗡League Of Legends🔪🔥 -> [JOIN, CONNECT]
+[24.4386425018310547] 2018-07-24 00:46:55,755 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2575 in on_voice_state_update: 418494189123272704/iTirex_Bot#2607 has joined Mafia Siciliana/🌪🗡League Of Legends🔪🔥
+[24.4396405220031738] 2018-07-24 00:46:55,756 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 389 in join_voice_channel: (join_voice_channel) waiting for voice data
+[24.5585858821868896] 2018-07-24 00:46:55,875 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 403 in join_voice_channel: (join_voice_channel) connecting...
+[24.9103994369506836] 2018-07-24 00:46:56,227 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 415 in join_voice_channel: (join_voice_channel) connection successful
+[24.9113776683807373] 2018-07-24 00:46:56,228 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 463 in get_voice_client: Connected in 0.6s
+[24.9113776683807373] 2018-07-24 00:46:56,228 - INFO - musicbot.bot | In bot.py::MainThread(244), line 464 in get_voice_client: Connected to Mafia Siciliana/🌪🗡League Of Legends🔪🔥
+[24.9123678207397461] 2018-07-24 00:46:56,229 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 805 in deserialize_queue: Deserializing queue for 469651332324786197
+[25.2861523628234863] 2018-07-24 00:46:56,603 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 555 in get_player: Created player via deserialization for server 469651332324786197 with 7 entries
+[25.2861523628234863] 2018-07-24 00:46:56,603 - INFO - musicbot.bot | In bot.py::MainThread(244), line 283 in _join_startup_channels: Joined Mafia Siciliana/🌪🗡League Of Legends🔪🔥
+[25.2871530055999756] 2018-07-24 00:46:56,604 - VOICEDEBUG - musicbot.player | In player.py::MainThread(244), line 311 in websocket_check: Starting websocket check loop for Mafia Siciliana
+[25.2871530055999756] 2018-07-24 00:46:56,604 - FFMPEG - musicbot.player | In player.py::MainThread(244), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-RFc-2aNZ6VY-SOiL_-_Halo_Video_Director_s_Cut.webm
+[26.0157518386840820] 2018-07-24 00:46:57,332 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[39.3934640884399414] 2018-07-24 00:47:10,710 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2395 in on_message: 303615965596221451/iTirex#7670: *play pacanele pacanele
+[43.7189786434173584] 2018-07-24 00:47:15,036 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[46.1795573234558105] 2018-07-24 00:47:17,496 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2395 in on_message: 303615965596221451/iTirex#7670: *skip
+[46.1965529918670654] 2018-07-24 00:47:17,513 - FFMPEG - musicbot.player | In player.py::MainThread(244), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-MSHe86bgpb4-Satra_B.E.N.Z._-_DOO_KILE_Audio.webm
+[46.2015471458435059] 2018-07-24 00:47:17,518 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[46.2205343246459961] 2018-07-24 00:47:17,537 - INFO - musicbot.entry | In entry.py::MainThread(244), line 195 in _download: Download cached: https://www.youtube.com/watch?v=VwAnsAUYnw4
+[46.2225310802459717] 2018-07-24 00:47:17,539 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[53.9135923385620117] 2018-07-24 00:47:25,230 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2395 in on_message: 303615965596221451/iTirex#7670: *volume 10
+[57.2563917636871338] 2018-07-24 00:47:28,573 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2395 in on_message: 303615965596221451/iTirex#7670: *queue
+[61.6110491752624512] 2018-07-24 00:47:32,928 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2395 in on_message: 303615965596221451/iTirex#7670: *volume 7
+[142.4706370830535889] 2018-07-24 00:48:53,787 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2395 in on_message: 303615965596221451/iTirex#7670: *play https://www.youtube.com/watch?v=ZCYZqwpj0FY
+[144.6816539764404297] 2018-07-24 00:48:55,998 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[178.4771859645843506] 2018-07-24 00:49:29,794 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 2564 in on_voice_state_update: Voice state update for 413023945835675659/Alyy#7001 on Mafia Siciliana/🔪CS:GO🔫 -> [UNMUTE]
+[179.0228703022003174] 2018-07-24 00:49:30,339 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 2564 in on_voice_state_update: Voice state update for 413023945835675659/Alyy#7001 on Mafia Siciliana/🔪CS:GO🔫 -> [UNDEAFEN]
+[180.7059016227722168] 2018-07-24 00:49:32,022 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 2564 in on_voice_state_update: Voice state update for 413023945835675659/Alyy#7001 on Mafia Siciliana/🔪CS:GO🔫 -> [DEAFEN]
+[189.3345899581909180] 2018-07-24 00:49:40,651 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 2564 in on_voice_state_update: Voice state update for 413023945835675659/Alyy#7001 on Mafia Siciliana/🔪CS:GO🔫 -> [UNDEAFEN]
+[206.4726796150207520] 2018-07-24 00:49:57,789 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2395 in on_message: 303615965596221451/iTirex#7670: *volume 100
+[208.3795859813690186] 2018-07-24 00:49:59,696 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 2564 in on_voice_state_update: Voice state update for 413023945835675659/Alyy#7001 on Mafia Siciliana/🔪CS:GO🔫 -> [MUTE, DEAFEN]
+[211.6898283958435059] 2018-07-24 00:50:03,006 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 2564 in on_voice_state_update: Voice state update for 418494189123272704/iTirex_Bot#2607 on Mafia Siciliana/🔪CS:GO🔫 -> [JOIN, MOVE]
+[211.6907703876495361] 2018-07-24 00:50:03,007 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2575 in on_voice_state_update: 418494189123272704/iTirex_Bot#2607 has joined Mafia Siciliana/🔪CS:GO🔫
+[215.1397790908813477] 2018-07-24 00:50:06,456 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 2564 in on_voice_state_update: Voice state update for 413023945835675659/Alyy#7001 on Mafia Siciliana/🌪🗡League Of Legends🔪🔥 -> [LEAVE, MOVE]
+[216.3550796508789062] 2018-07-24 00:50:07,672 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 2564 in on_voice_state_update: Voice state update for 413023945835675659/Alyy#7001 on Mafia Siciliana/🌪🗡League Of Legends🔪🔥 -> [UNMUTE, UNDEAFEN]
+[222.7493858337402344] 2018-07-24 00:50:14,066 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 2564 in on_voice_state_update: Voice state update for 466693098903437332/mario.alexandru2005#8473 on Mafia Siciliana/🌪🗡League Of Legends🔪🔥 -> [CONNECT]
+[223.2770805358886719] 2018-07-24 00:50:14,594 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 2564 in on_voice_state_update: Voice state update for 418494189123272704/iTirex_Bot#2607 on Mafia Siciliana/🌪🗡League Of Legends🔪🔥 -> [JOIN, MOVE]
+[223.2770805358886719] 2018-07-24 00:50:14,594 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2575 in on_voice_state_update: 418494189123272704/iTirex_Bot#2607 has joined Mafia Siciliana/🌪🗡League Of Legends🔪🔥
+[227.8654291629791260] 2018-07-24 00:50:19,182 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2395 in on_message: 303615965596221451/iTirex#7670: *volume 5
+[264.9423267841339111] 2018-07-24 00:50:56,259 - FFMPEG - musicbot.player | In player.py::MainThread(244), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-VwAnsAUYnw4-Jay_Rock_Kendrick_Lamar_Future_James_Blake_-_King_s_Dead.webm
+[264.9453094005584717] 2018-07-24 00:50:56,262 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[264.9533059597015381] 2018-07-24 00:50:56,270 - INFO - musicbot.entry | In entry.py::MainThread(244), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=fPO76Jlnz6c
+[264.9573025703430176] 2018-07-24 00:50:56,274 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[267.3619272708892822] 2018-07-24 00:50:58,678 - INFO - musicbot.entry | In entry.py::MainThread(244), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=fPO76Jlnz6c
+[353.2688689231872559] 2018-07-24 00:52:24,585 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 2564 in on_voice_state_update: Voice state update for 414752945553408001/Ivanique#3134 on Mafia Siciliana/🌪🗡League Of Legends🔪🔥 -> [UNMUTE, UNDEAFEN]
+[528.3072478771209717] 2018-07-24 00:55:19,624 - FFMPEG - musicbot.player | In player.py::MainThread(244), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-fPO76Jlnz6c-Coolio_-_Gangsta_s_Paradise_feat._L.V._Music_Video.webm
+[528.3112313747406006] 2018-07-24 00:55:19,628 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[528.3182256221771240] 2018-07-24 00:55:19,635 - INFO - musicbot.entry | In entry.py::MainThread(244), line 195 in _download: Download cached: https://www.youtube.com/watch?v=6jARhgo0cCA
+[528.3202247619628906] 2018-07-24 00:55:19,637 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[784.4533817768096924] 2018-07-24 00:59:35,770 - FFMPEG - musicbot.player | In player.py::MainThread(244), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-6jARhgo0cCA-DJ_ASSASS1N_-_Frag_Out_Privated.webm
+[784.4613795280456543] 2018-07-24 00:59:35,778 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[784.4813683032989502] 2018-07-24 00:59:35,798 - INFO - musicbot.entry | In entry.py::MainThread(244), line 195 in _download: Download cached: https://www.youtube.com/watch?v=_I_D_8Z4sJE
+[784.4833657741546631] 2018-07-24 00:59:35,800 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[1053.1435823440551758] 2018-07-24 01:04:04,460 - FFMPEG - musicbot.player | In player.py::MainThread(244), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-_I_D_8Z4sJE-Nicky_Jam_x_J._Balvin_-_X_EQUIS_Video_Oficial_Prod._Afro_Bros_Jeon.webm
+[1053.1495792865753174] 2018-07-24 01:04:04,466 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[1053.1615715026855469] 2018-07-24 01:04:04,478 - INFO - musicbot.entry | In entry.py::MainThread(244), line 195 in _download: Download cached: https://www.youtube.com/watch?v=sGIm0-dQd8M
+[1053.1625707149505615] 2018-07-24 01:04:04,479 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[1245.0314683914184570] 2018-07-24 01:07:16,348 - FFMPEG - musicbot.player | In player.py::MainThread(244), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-sGIm0-dQd8M-Daddy_Yankee_-_Dura_Video_Oficial.webm
+[1245.0434646606445312] 2018-07-24 01:07:16,360 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[1245.0684463977813721] 2018-07-24 01:07:16,385 - INFO - musicbot.entry | In entry.py::MainThread(244), line 195 in _download: Download cached: https://www.youtube.com/watch?v=5PZoPiBq-H4
+[1245.0704464912414551] 2018-07-24 01:07:16,387 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[1302.2633507251739502] 2018-07-24 01:08:13,580 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 2564 in on_voice_state_update: Voice state update for 413023945835675659/Alyy#7001 on Mafia Siciliana/🌪🗡League Of Legends🔪🔥 -> [LEAVE, DISCONNECT]
+[1302.2633507251739502] 2018-07-24 01:08:13,580 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2575 in on_voice_state_update: 413023945835675659/Alyy#7001 has left Mafia Siciliana/🌪🗡League Of Legends🔪🔥
+[1462.7059528827667236] 2018-07-24 01:10:54,022 - FFMPEG - musicbot.player | In player.py::MainThread(244), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-5PZoPiBq-H4-Alex_de_la_Caracal_Pacanele_Invartitoare_2018.webm
+[1462.7119548320770264] 2018-07-24 01:10:54,028 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[1462.7259397506713867] 2018-07-24 01:10:54,042 - INFO - musicbot.entry | In entry.py::MainThread(244), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=ZCYZqwpj0FY
+[1462.7369341850280762] 2018-07-24 01:10:54,053 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[1464.8267266750335693] 2018-07-24 01:10:56,143 - INFO - musicbot.entry | In entry.py::MainThread(244), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=ZCYZqwpj0FY
+[2024.9674143791198730] 2018-07-24 01:20:16,284 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2395 in on_message: 303091747939155968/Gami OS#7622: *QUEUE
+[2035.3504199981689453] 2018-07-24 01:20:26,667 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2395 in on_message: 303091747939155968/Gami OS#7622: *play pacanele pacanele mi ai mancat zilele mele
+[2039.7918572425842285] 2018-07-24 01:20:31,108 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[2045.9143176078796387] 2018-07-24 01:20:37,231 - FFMPEG - musicbot.player | In player.py::MainThread(244), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-ZCYZqwpj0FY-Antonio_-_TU_NU_STII_Official_Video_100K_SPECIAL_SONG.webm
+[2045.9213154315948486] 2018-07-24 01:20:37,238 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[2045.9353060722351074] 2018-07-24 01:20:37,252 - INFO - musicbot.entry | In entry.py::MainThread(244), line 195 in _download: Download cached: https://www.youtube.com/watch?v=HXhoRxkB5Mk
+[2045.9383068084716797] 2018-07-24 01:20:37,255 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[2046.7358460426330566] 2018-07-24 01:20:38,052 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2395 in on_message: 303091747939155968/Gami OS#7622: *skip
+[2050.0169484615325928] 2018-07-24 01:20:41,333 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2395 in on_message: 303091747939155968/Gami OS#7622: *skip
+[2079.1697845458984375] 2018-07-24 01:21:10,486 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2395 in on_message: 303615965596221451/iTirex#7670: *skip
+[2079.1837773323059082] 2018-07-24 01:21:10,500 - FFMPEG - musicbot.player | In player.py::MainThread(244), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-HXhoRxkB5Mk-Cocos_de_la_Calarasi_Pacanele_pacanele.webm
+[2079.1877739429473877] 2018-07-24 01:21:10,504 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[2079.1927702426910400] 2018-07-24 01:21:10,509 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[2325.3525021076202393] 2018-07-24 01:25:16,669 - INFO - musicbot.entry | In entry.py::MainThread(244), line 219 in _really_download: Download started: https://youtube.com/watch?v=Yr0chA6MNAI
+[2327.4902660846710205] 2018-07-24 01:25:18,807 - INFO - musicbot.entry | In entry.py::MainThread(244), line 229 in _really_download: Download complete: https://youtube.com/watch?v=Yr0chA6MNAI
+[2327.4942636489868164] 2018-07-24 01:25:18,811 - FFMPEG - musicbot.player | In player.py::MainThread(244), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-Yr0chA6MNAI-Nightshade_NES_OST_-_Nightshade_Fight.webm
+[2327.5012600421905518] 2018-07-24 01:25:18,818 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[2430.6464524269104004] 2018-07-24 01:27:01,963 - INFO - musicbot.entry | In entry.py::MainThread(244), line 219 in _really_download: Download started: https://youtube.com/watch?v=C_fpzKoHyw8
+[2436.0593261718750000] 2018-07-24 01:27:07,376 - INFO - musicbot.entry | In entry.py::MainThread(244), line 229 in _really_download: Download complete: https://youtube.com/watch?v=C_fpzKoHyw8
+[2436.0623240470886230] 2018-07-24 01:27:07,379 - FFMPEG - musicbot.player | In player.py::MainThread(244), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-C_fpzKoHyw8-House_-_Hellberg_-_Saviors_Monstercat_FREE_Release.m4a
+[2436.0653221607208252] 2018-07-24 01:27:07,382 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[2674.7448379993438721] 2018-07-24 01:31:06,061 - INFO - musicbot.entry | In entry.py::MainThread(244), line 195 in _download: Download cached: https://youtube.com/watch?v=4IIgzZpuv6A
+[2676.7536816596984863] 2018-07-24 01:31:08,070 - FFMPEG - musicbot.player | In player.py::MainThread(244), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-4IIgzZpuv6A-Steven_Tyler_-_RED_WHITE_YOU_Lyric_Video.webm
+[2676.9315750598907471] 2018-07-24 01:31:08,248 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[2691.8370764255523682] 2018-07-24 01:31:23,154 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2395 in on_message: 303091747939155968/Gami OS#7622: *play impar mark
+[2763.9855711460113525] 2018-07-24 01:32:35,302 - DEBUG - musicbot.player | In player.py::MainThread(244), line 321 in websocket_check: Voice websocket for "Mafia Siciliana" is CLOSED, reconnecting
+[2764.0135989189147949] 2018-07-24 01:32:35,330 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 472 in reconnect_voice_client: Reconnecting voice client on "Mafia Siciliana" to "🌪🗡League Of Legends🔪🔥"
+[2764.0135989189147949] 2018-07-24 01:32:35,330 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 484 in reconnect_voice_client: (reconnect_voice_client) Pausing
+[2764.0135989189147949] 2018-07-24 01:32:35,330 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 489 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[2765.3168025016784668] 2018-07-24 01:32:36,633 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2395 in on_message: 303091747939155968/Gami OS#7622: *play impar mark
+[2765.3178095817565918] 2018-07-24 01:32:36,634 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 497 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[2765.6386282444000244] 2018-07-24 01:32:36,955 - ERROR - musicbot.bot | In bot.py::MainThread(244), line 2531 in on_message: Exception in on_message
+Traceback (most recent call last):
+  File "E:\folder discord_BOT\MusicBot\musicbot\bot.py", line 2502, in on_message
+    response = await handler(**handler_kwargs)
+  File "E:\folder discord_BOT\MusicBot\musicbot\bot.py", line 1300, in cmd_play
+    await self.send_typing(channel)
+  File "E:\folder discord_BOT\MusicBot\musicbot\bot.py", line 925, in send_typing
+    return await super().send_typing(destination)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\client.py", line 1174, in send_typing
+    yield from self.http.send_typing(channel_id)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\client.py", line 555, in __iter__
+    resp = yield from self._coro
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\client.py", line 198, in _request
+    conn = yield from self._connector.connect(req)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\connector.py", line 304, in connect
+    yield from self._create_connection(req)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\connector.py", line 578, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\connector.py", line 601, in _create_direct_connection
+    local_addr=self._local_addr)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python36-32\lib\asyncio\base_events.py", line 804, in create_connection
+    sock, protocol_factory, ssl, server_hostname)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python36-32\lib\asyncio\base_events.py", line 830, in _create_connection_transport
+    yield from waiter
+concurrent.futures._base.CancelledError
+[2766.7819669246673584] 2018-07-24 01:32:38,098 - ERROR - musicbot.bot | In bot.py::MainThread(244), line 2531 in on_message: Exception in on_message
+Traceback (most recent call last):
+  File "E:\folder discord_BOT\MusicBot\musicbot\bot.py", line 2423, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "E:\folder discord_BOT\MusicBot\musicbot\bot.py", line 571, in get_player
+    async with self.aiolocks[self.reconnect_voice_client.__name__ + ':' + server.id]:
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python36-32\lib\asyncio\locks.py", line 79, in __aenter__
+    yield from self.acquire()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python36-32\lib\asyncio\locks.py", line 181, in acquire
+    yield from fut
+concurrent.futures._base.CancelledError
+[2767.848351479] launcher-INFO: Restarting in 2 seconds...
+[2774.0331304073333740] 2018-07-24 01:32:45,350 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 178 in _setup_logging: Skipping logger setup, already set up
+[2774.0331304073333740] 2018-07-24 01:32:45,350 - INFO - musicbot.bot | In bot.py::MainThread(244), line 80 in __init__: =========== MusicBot (version 1.9.6_3) ===========
+[2774.0341300964355469] 2018-07-24 01:32:45,351 - INFO - musicbot.bot | In bot.py::MainThread(244), line 86 in __init__: Loaded autoplaylist with 2421 entries
+[2774.034130096] launcher-INFO: Connecting
+[2777.2852542400360107] 2018-07-24 01:32:48,602 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 1011 in on_ready: Connection established, ready to go.
+[2777.2852542400360107] 2018-07-24 01:32:48,602 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 324 in _cache_app_info: Caching app info
+[2777.4305782318115234] 2018-07-24 01:32:48,747 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 828 in _scheck_ensure_env: Ensuring data folders exist
+[2777.7573764324188232] 2018-07-24 01:32:49,074 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 844 in _scheck_server_permissions: Checking server permissions
+[2777.7573764324188232] 2018-07-24 01:32:49,074 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 848 in _scheck_autoplaylist: Auditing autoplaylist
+[2777.7573764324188232] 2018-07-24 01:32:49,074 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 852 in _scheck_configs: Validating config
+[2777.7573764324188232] 2018-07-24 01:32:49,074 - DEBUG - musicbot.config | In config.py::MainThread(244), line 155 in async_validate: Validating options...
+[2777.7573764324188232] 2018-07-24 01:32:49,074 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 855 in _scheck_configs: Validating permissions config
+[2777.7573764324188232] 2018-07-24 01:32:49,074 - DEBUG - musicbot.permissions | In permissions.py::MainThread(244), line 59 in async_validate: Validating permissions...
+[2777.7573764324188232] 2018-07-24 01:32:49,074 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1022 in on_ready: Connected to Discord!
+[2777.7583758831024170] 2018-07-24 01:32:49,075 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1032 in on_ready: Bot:   418494189123272704/iTirex_Bot#2607 [BOT]
+[2777.7583758831024170] 2018-07-24 01:32:49,075 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1040 in on_ready: Owner: 303615965596221451/iTirex#7670
+
+[2777.7583758831024170] 2018-07-24 01:32:49,075 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1043 in on_ready: Server List:
+[2777.7593750953674316] 2018-07-24 01:32:49,076 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1044 in <listcomp>:  - 🎮Gamers  Squad🎮
+[2777.7593750953674316] 2018-07-24 01:32:49,076 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1044 in <listcomp>:  - Mafia Siciliana
+[2778.6528716087341309] 2018-07-24 01:32:49,969 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1088 in on_ready: Not bound to any text channels
+[2778.6528716087341309] 2018-07-24 01:32:49,969 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1114 in on_ready: Not autojoining any voice channels
+[2778.6538589000701904] 2018-07-24 01:32:49,970 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1118 in on_ready: Options:
+[2778.6538589000701904] 2018-07-24 01:32:49,970 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1120 in on_ready:   Command prefix: *
+[2778.6548585891723633] 2018-07-24 01:32:49,971 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1121 in on_ready:   Default volume: 25%
+[2778.6548585891723633] 2018-07-24 01:32:49,971 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1123 in on_ready:   Skip threshold: 4 votes or 50%
+[2778.6548585891723633] 2018-07-24 01:32:49,971 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1124 in on_ready:   Now Playing @mentions: Disabled
+[2778.6548585891723633] 2018-07-24 01:32:49,971 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1125 in on_ready:   Auto-Summon: Enabled
+[2778.6558582782745361] 2018-07-24 01:32:49,972 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1126 in on_ready:   Auto-Playlist: Enabled
+[2778.6558582782745361] 2018-07-24 01:32:49,972 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1127 in on_ready:   Auto-Pause: Enabled
+[2778.6558582782745361] 2018-07-24 01:32:49,972 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1128 in on_ready:   Delete Messages: Enabled
+[2778.6558582782745361] 2018-07-24 01:32:49,972 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1130 in on_ready:     Delete Invoking: Disabled
+[2778.6558582782745361] 2018-07-24 01:32:49,972 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1131 in on_ready:   Debug Mode: Disabled
+[2778.6568570137023926] 2018-07-24 01:32:49,973 - INFO - musicbot.bot | In bot.py::MainThread(244), line 1132 in on_ready:   Downloaded songs will be saved
+[2778.6568570137023926] 2018-07-24 01:32:49,973 - INFO - musicbot.bot | In bot.py::MainThread(244), line 252 in _join_startup_channels: Found resumable voice channel Mafia Siciliana/🌪🗡League Of Legends🔪🔥
+[2778.6568570137023926] 2018-07-24 01:32:49,973 - INFO - musicbot.bot | In bot.py::MainThread(244), line 258 in _join_startup_channels: Found owner in "🌪🗡League Of Legends🔪🔥"
+[2778.6578564643859863] 2018-07-24 01:32:49,974 - INFO - musicbot.bot | In bot.py::MainThread(244), line 267 in _join_startup_channels: Attempting to join Mafia Siciliana/🌪🗡League Of Legends🔪🔥
+[2778.6578564643859863] 2018-07-24 01:32:49,974 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 437 in get_voice_client: Connection attempt 1 to 🌪🗡League Of Legends🔪🔥
+[2778.6578564643859863] 2018-07-24 01:32:49,974 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 376 in join_voice_channel: (join_voice_channel) creating futures
+[2778.6578564643859863] 2018-07-24 01:32:49,974 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 382 in join_voice_channel: (join_voice_channel) setting voice state
+[2778.6588563919067383] 2018-07-24 01:32:49,975 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 385 in join_voice_channel: (join_voice_channel) waiting for session id
+[2778.7997894287109375] 2018-07-24 01:32:50,116 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 2552 in on_voice_state_update: Resumed voice connection to Mafia Siciliana/🌪🗡League Of Legends🔪🔥
+[2778.7997894287109375] 2018-07-24 01:32:50,116 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 2564 in on_voice_state_update: Voice state update for 418494189123272704/iTirex_Bot#2607 on Mafia Siciliana/🌪🗡League Of Legends🔪🔥 -> [RESUME, CONNECT]
+[2778.7997894287109375] 2018-07-24 01:32:50,116 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 389 in join_voice_channel: (join_voice_channel) waiting for voice data
+[2779.0136518478393555] 2018-07-24 01:32:50,330 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 403 in join_voice_channel: (join_voice_channel) connecting...
+[2779.3514573574066162] 2018-07-24 01:32:50,668 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 415 in join_voice_channel: (join_voice_channel) connection successful
+[2779.3514573574066162] 2018-07-24 01:32:50,668 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 463 in get_voice_client: Connected in 0.7s
+[2779.3514573574066162] 2018-07-24 01:32:50,668 - INFO - musicbot.bot | In bot.py::MainThread(244), line 464 in get_voice_client: Connected to Mafia Siciliana/🌪🗡League Of Legends🔪🔥
+[2779.3524556159973145] 2018-07-24 01:32:50,669 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 805 in deserialize_queue: Deserializing queue for 469651332324786197
+[2780.6427235603332520] 2018-07-24 01:32:51,959 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 555 in get_player: Created player via deserialization for server 469651332324786197 with 1 entries
+[2780.6427235603332520] 2018-07-24 01:32:51,959 - INFO - musicbot.bot | In bot.py::MainThread(244), line 283 in _join_startup_channels: Joined Mafia Siciliana/🌪🗡League Of Legends🔪🔥
+[2780.6437203884124756] 2018-07-24 01:32:51,960 - VOICEDEBUG - musicbot.player | In player.py::MainThread(244), line 311 in websocket_check: Starting websocket check loop for Mafia Siciliana
+[2780.6437203884124756] 2018-07-24 01:32:51,960 - FFMPEG - musicbot.player | In player.py::MainThread(244), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-4IIgzZpuv6A-Steven_Tyler_-_RED_WHITE_YOU_Lyric_Video.webm
+[2781.0994474887847900] 2018-07-24 01:32:52,416 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[2792.3369584083557129] 2018-07-24 01:33:03,653 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2395 in on_message: 303091747939155968/Gami OS#7622: *play pacanele pacanele mi ai mancat zilele mele
+[2796.3296527862548828] 2018-07-24 01:33:07,646 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[2796.3636322021484375] 2018-07-24 01:33:07,680 - INFO - musicbot.entry | In entry.py::MainThread(244), line 195 in _download: Download cached: https://www.youtube.com/watch?v=HXhoRxkB5Mk
+[2797.5899245738983154] 2018-07-24 01:33:08,906 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2395 in on_message: 303091747939155968/Gami OS#7622: *play mark impar
+[2799.2219822406768799] 2018-07-24 01:33:10,539 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2395 in on_message: 303091747939155968/Gami OS#7622: *skip
+[2801.8384716510772705] 2018-07-24 01:33:13,155 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[2809.6909365653991699] 2018-07-24 01:33:21,007 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2395 in on_message: 303091747939155968/Gami OS#7622: *play walk it like i talk it
+[2813.4943506717681885] 2018-07-24 01:33:24,811 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[2815.6421115398406982] 2018-07-24 01:33:26,959 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2395 in on_message: 303091747939155968/Gami OS#7622: *play rude
+[2820.3943657875061035] 2018-07-24 01:33:31,711 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[2831.4241709709167480] 2018-07-24 01:33:42,741 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2395 in on_message: 303091747939155968/Gami OS#7622: *play finger eleven paralyzer
+[2835.1849987506866455] 2018-07-24 01:33:46,502 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[2838.7259535789489746] 2018-07-24 01:33:50,042 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2395 in on_message: 303091747939155968/Gami OS#7622: *play i hate u i love u
+[2842.6836671829223633] 2018-07-24 01:33:54,000 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[2844.7274875640869141] 2018-07-24 01:33:56,044 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2395 in on_message: 303091747939155968/Gami OS#7622: *play keep rolin
+[2848.5452833175659180] 2018-07-24 01:33:59,862 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[2862.7871835231781006] 2018-07-24 01:34:14,104 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2395 in on_message: 303615965596221451/iTirex#7670: *skip
+[2862.8011741638183594] 2018-07-24 01:34:14,118 - FFMPEG - musicbot.player | In player.py::MainThread(244), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-HXhoRxkB5Mk-Cocos_de_la_Calarasi_Pacanele_pacanele.webm
+[2862.8451483249664307] 2018-07-24 01:34:14,162 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[2862.8531441688537598] 2018-07-24 01:34:14,170 - INFO - musicbot.entry | In entry.py::MainThread(244), line 195 in _download: Download cached: https://www.youtube.com/watch?v=Fn4_AqyYUSQ
+[2862.8541483879089355] 2018-07-24 01:34:14,171 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[3107.0062048435211182] 2018-07-24 01:38:18,323 - FFMPEG - musicbot.player | In player.py::MainThread(244), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-Fn4_AqyYUSQ-Mark_Stam_-_IMPAR_Official_Video.webm
+[3107.0261950492858887] 2018-07-24 01:38:18,343 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[3107.0361888408660889] 2018-07-24 01:38:18,353 - INFO - musicbot.entry | In entry.py::MainThread(244), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=A_xWDAbnBSU
+[3107.0401866436004639] 2018-07-24 01:38:18,357 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[3110.1142923831939697] 2018-07-24 01:38:21,431 - INFO - musicbot.entry | In entry.py::MainThread(244), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=A_xWDAbnBSU
+[3325.9276747703552246] 2018-07-24 01:41:57,244 - FFMPEG - musicbot.player | In player.py::MainThread(244), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-A_xWDAbnBSU-Migos_-_Walk_It_Talk_It_Audio_ft._Drake.webm
+[3325.9316592216491699] 2018-07-24 01:41:57,248 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[3325.9376556873321533] 2018-07-24 01:41:57,254 - INFO - musicbot.entry | In entry.py::MainThread(244), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=PIh2xe4jnpk
+[3325.9416556358337402] 2018-07-24 01:41:57,258 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[3327.8455677032470703] 2018-07-24 01:41:59,162 - INFO - musicbot.entry | In entry.py::MainThread(244), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=PIh2xe4jnpk
+[3396.6695334911346436] 2018-07-24 01:43:07,986 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 2564 in on_voice_state_update: Voice state update for 303615965596221451/iTirex#7670 on Mafia Siciliana/🌪🗡League Of Legends🔪🔥 -> [MUTE]
+[3605.9015517234802246] 2018-07-24 01:46:37,218 - FFMPEG - musicbot.player | In player.py::MainThread(244), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-PIh2xe4jnpk-MAGIC_-_Rude_Official_Video.webm
+[3607.2968084812164307] 2018-07-24 01:46:38,613 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[3608.6460285186767578] 2018-07-24 01:46:39,963 - INFO - musicbot.entry | In entry.py::MainThread(244), line 195 in _download: Download cached: https://www.youtube.com/watch?v=BJk6gZuPKRE
+[3608.8309202194213867] 2018-07-24 01:46:40,147 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[3832.7178695201873779] 2018-07-24 01:50:24,034 - FFMPEG - musicbot.player | In player.py::MainThread(244), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-BJk6gZuPKRE-finger_eleven_-_Paralyzer.webm
+[3832.7218670845031738] 2018-07-24 01:50:24,038 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[3832.7448537349700928] 2018-07-24 01:50:24,061 - INFO - musicbot.entry | In entry.py::MainThread(244), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=7Rb7pnjbe4Q
+[3832.7858304977416992] 2018-07-24 01:50:24,102 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[3835.4772772789001465] 2018-07-24 01:50:26,794 - INFO - musicbot.entry | In entry.py::MainThread(244), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=7Rb7pnjbe4Q
+[3872.4291319847106934] 2018-07-24 01:51:03,746 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 2564 in on_voice_state_update: Voice state update for 414752945553408001/Ivanique#3134 on Mafia Siciliana/🌪🗡League Of Legends🔪🔥 -> [MUTE, DEAFEN]
+[3902.1911017894744873] 2018-07-24 01:51:33,508 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 2564 in on_voice_state_update: Voice state update for 414752945553408001/Ivanique#3134 on Mafia Siciliana/🌪🗡League Of Legends🔪🔥 -> [LEAVE, DISCONNECT]
+[3902.1911017894744873] 2018-07-24 01:51:33,508 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2575 in on_voice_state_update: 414752945553408001/Ivanique#3134 has left Mafia Siciliana/🌪🗡League Of Legends🔪🔥
+[3907.9587702751159668] 2018-07-24 01:51:39,275 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 2564 in on_voice_state_update: Voice state update for 414752945553408001/Ivanique#3134 on Mafia Siciliana/🌪🗡League Of Legends🔪🔥 -> [JOIN, CONNECT, UNMUTE, UNDEAFEN]
+[3907.9587702751159668] 2018-07-24 01:51:39,275 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2575 in on_voice_state_update: 414752945553408001/Ivanique#3134 has joined Mafia Siciliana/🌪🗡League Of Legends🔪🔥
+[3915.7942600250244141] 2018-07-24 01:51:47,111 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 2564 in on_voice_state_update: Voice state update for 414752945553408001/Ivanique#3134 on Mafia Siciliana/🌪🗡League Of Legends🔪🔥 -> [LEAVE, DISCONNECT]
+[3915.7942600250244141] 2018-07-24 01:51:47,111 - INFO - musicbot.bot | In bot.py::MainThread(244), line 2575 in on_voice_state_update: 414752945553408001/Ivanique#3134 has left Mafia Siciliana/🌪🗡League Of Legends🔪🔥
+[4023.4543812274932861] 2018-07-24 01:53:34,771 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(244), line 2564 in on_voice_state_update: Voice state update for 303615965596221451/iTirex#7670 on Mafia Siciliana/🌪🗡League Of Legends🔪🔥 -> [UNMUTE]
+[4043.3431367874145508] 2018-07-24 01:53:54,660 - FFMPEG - musicbot.player | In player.py::MainThread(244), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-7Rb7pnjbe4Q-I_Hate_You_I_Love_You_-_lyrics.webm
+[4043.3461227416992188] 2018-07-24 01:53:54,663 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[4043.3551175594329834] 2018-07-24 01:53:54,672 - INFO - musicbot.entry | In entry.py::MainThread(244), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=RYnFIRc0k6E
+[4043.3591158390045166] 2018-07-24 01:53:54,676 - DEBUG - musicbot.bot | In bot.py::MainThread(244), line 781 in serialize_queue: Serializing queue for 469651332324786197
+[4045.1653404235839844] 2018-07-24 01:53:56,482 - INFO - musicbot.entry | In entry.py::MainThread(244), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=RYnFIRc0k6E
